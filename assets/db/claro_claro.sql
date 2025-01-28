@@ -2,10 +2,10 @@
 -- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
--- Servidor: localhost
--- Tiempo de generación: 08-07-2024 a las 11:58:36
--- Versión del servidor: 10.11.8-MariaDB
--- Versión de PHP: 8.0.30
+-- Servidor: 127.0.0.1
+-- Tiempo de generación: 29-01-2025 a las 00:10:20
+-- Versión del servidor: 10.4.32-MariaDB
+-- Versión de PHP: 8.2.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -20,8 +20,7 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `claro_claro`
 --
-CREATE DATABASE claro_claro;
-USE claro_claro;
+
 -- --------------------------------------------------------
 
 --
@@ -1464,7 +1463,7 @@ INSERT INTO `operador_logico` (`id_departamento`, `departamento`, `ciudad`, `ope
 CREATE TABLE `permisos` (
   `id_permiso` int(11) NOT NULL,
   `detalle` varchar(50) CHARACTER SET latin1 COLLATE latin1_swedish_ci DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_spanish_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 
 --
 -- Volcado de datos para la tabla `permisos`
@@ -1503,7 +1502,9 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id_usuario`, `nombres`, `cedula`, `usuario`, `pass`, `fecha_registro`, `estado`, `permiso`, `nuevo`) VALUES
-(1, 'ADMINISTRADOR PRINCIPAL', '62622622', 'admin', '$2y$10$JVKONwHmrA88IKYNmi3eM.DZmPPWmF0jFO4xsaFuk3WiCW8MYjbtq', '2024-05-10 10:01:48', 1, 1, 1);
+(1, 'ADMINISTRADOR PRINCIPAL', '62622622', 'admin', '$2y$10$24osD6ycJ8U5fa68KDE5G.ISoo//Zi5Rt.gwtuFM.cpF9B0QW74Ki', '2024-05-10 10:01:48', 1, 1, 1),
+(2, 'Bryant Grippa', '123456789', 'bgg', '$2y$10$nlOsradu1E2STUbV7Q6hauFJYoTpAdAWIB.bObhPiTA2w71cnk44y', '2025-01-28 17:46:02', 1, 6, 0);
+
 -- --------------------------------------------------------
 
 --
@@ -1606,7 +1607,7 @@ CREATE TABLE `venta_tyt` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Volcado de datos para la tabla `venta_tyt`
+-- Índices para tablas volcadas
 --
 
 --
@@ -1647,8 +1648,10 @@ ALTER TABLE `venta_tyt`
 --
 
 --
--- AUTO_INCREMENT de la tabla `operador_logico`
+-- AUTO_INCREMENT de la tabla `usuarios`
 --
+ALTER TABLE `usuarios`
+  MODIFY `id_usuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- Restricciones para tablas volcadas
