@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 12px;
+  }
+  body {
+    font-size: 1rem;
+  }
+  
+  .logo{
+    width: 100px;
+    height: 90px;
+    border: 30px;
+    margin-left: 15px;
+  }
+header{
+    height: 90px;
+    background-color: rgb(46, 44, 44);
+    }
+    .container-fluid {
+        padding: 20px;
+        background-color: #1d1c1c;
+      }
+p{
+    font-size: 15px;
+    font-family: "Playfair Display", serif;
+    
+    
+}
+.form-neon {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-neon h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .form-neon select,
+  .form-neon input[type="date"],
+  .form-neon input[type="number"],
+  .form-neon input[type="text"],
+  .form-neon textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .form-neon select,
+  .form-neon input[type="date"],
+  .form-neon input[type="number"] {
+    height: 40px;
+  }
+  
+  .form-neon textarea {
+    height: 80px;
+  }
+  
+  .form-neon button {
+    display: block;
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-neon button:hover {
+    background-color: #0056b3;
+  }
+  
+  .form-neon button i {
+    margin-right: 8px;
+  }
+
+  footer{
+    height: 80px;
+    background-color: rgb(46, 44, 44);
+  }
+  

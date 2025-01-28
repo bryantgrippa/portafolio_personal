@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 12px;
+}
+body {
+  font-size: 1rem;
+  background-color: black;
+}
+.container0 {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  width: 100px;
+  height: 90px;
+  border: 30px;
+  margin-left: 15px;
+}
+
+.container0 header {
+  height: 90px;
+  background-color: rgb(46, 44, 44);
+  /*pegajoso head
+   /* position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;*/
+}
+.container0 main {
+  height: 100vh;
+  background-color: black;
+  padding-top: 80px;
+}
+
+.container0 footer {
+  height: 80px;
+  background-color: rgb(46, 44, 44);
+}
+
+#productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.boton {
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: black;
+  color: black;
+  transition: background-color 0.3s ease;
+  width: 70%;
+  margin-top: 15px;
+  height: 90px;
+  
+}
+
+.boton:hover {
+  background-color: gray;
+}
+
+.text {
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
