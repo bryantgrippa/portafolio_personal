@@ -90,9 +90,9 @@
         <h1>Login</h1>
         <form action="?p=sga&c=Login&a=Login" method="post">
             <label for="usuario">Nombre de Usuario</label>
-            <input type="text" id="usuario" name="usuario" placeholder="Ingrese el usuario" required autocomplete="off">
+            <input type="text" id="usuario" name="usuario" required placeholder="Ingrese el usuario" value="admin" autocomplete="off">
             <label for="contraseña">Contraseña</label>
-            <input type="password" id="contraseña" name="contraseña" placeholder="Contraseña" required autocomplete="off">
+            <input type="password" id="contraseña" name="contraseña" required placeholder="Contraseña" value="123" autocomplete="off">
             <input type="submit" value="Acceder">
             <a href="index.php" type="sumbit">VOLVER</a>
         </form>

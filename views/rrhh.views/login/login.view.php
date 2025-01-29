@@ -13,11 +13,13 @@ require_once "assets/gestionhumana/libreria/librerias.php";
                 <form method="post" action="?p=rrhh&c=Login&a=Login">
                     <div class="avatar"><i class="fa fa-user"></i></div>
                     <h4 class="modal-title">Ingresa t&uacute; usuario y contrase&ntilde;a</h4>
+                    <a href="index.php" type="sumbit">VOLVER</a>
+
                     <div class="form-group">
-                        <input name="usuario" id="usuario" type="text" class="form-control" placeholder="Usuario" required="required" autocomplete="off">
+                        <input name="usuario" id="usuario" type="text" class="form-control" placeholder="Usuario" value="bryant.grippa" autocomplete="off">
                     </div>
                     <div class="form-group">
-                        <input name="password" id="password" type="password" class="form-control" placeholder="Contraseña" required="required" autocomplete="off">
+                        <input name="password" id="password" type="password" class="form-control" placeholder="Contraseña" value="Arcos2021" autocomplete="off">
                     </div>
 
                     <input type="submit" class="btn btn-primary btn-block btn-lg" name="boton_login" id="boton_login" value="Ingresar">

@@ -36,15 +36,16 @@
                                     </div>
                                     <form class="user" method="post" action="?p=claro&c=Login&a=login">
                                         <div class="form-group">
-                                            <input type="text" class="form-control form-control-user" id="exampleInpuText" aria-describedby="textHelp" placeholder="Usuario" name="user" required>
+                                            <input type="text" class="form-control form-control-user" id="exampleInpuText" aria-describedby="textHelp" placeholder="Usuario" name="user" required value="admin">
                                         </div>
                                         <div class="form-group">
-                                            <input type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Contraseña" name="pass" required>
+                                            <input type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Contraseña" name="pass" required value="pass">
                                         </div>
                                         <div class="form-group">
                                             <input type="submit" class="form-control btn btn-primary" id="exampleInputPassword" value="Ingresar">
                                         </div>
                                     </form>
+                                    <a href="index.php" type="sumbit">VOLVER</a>
                                 </div>
                             </div>
                         </div>

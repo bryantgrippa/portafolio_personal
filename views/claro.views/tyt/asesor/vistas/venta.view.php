@@ -288,7 +288,7 @@
                                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <img class="img-fluid" src="assets/img/evidencia_tyt/<?php echo $alm[0]->link;
+                                                    <img class="img-fluid" src="assets/claro/img/evidencia_tyt/<?php echo $alm[0]->link;
                                                                                                             ?>" alt="Evidencia">
                                                 </div>
                                                 <div class="modal-footer">
@@ -314,7 +314,7 @@
                                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <img class="img-fluid" src="assets/img/evidencia_tyt/<?php echo $alm[0]->link2;
+                                                    <img class="img-fluid" src="assets/claro/img/evidencia_tyt/<?php echo $alm[0]->link2;
                                                                                                             ?>" alt="Evidencia">
                                                 </div>
                                                 <div class="modal-footer">
@@ -336,7 +336,7 @@
                                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <img class="img-fluid" src="assets/img/evidencia_tyt/<?php echo $alm[0]->link3;
+                                                    <img class="img-fluid" src="assets/claro/img/evidencia_tyt/<?php echo $alm[0]->link3;
                                                                                                             ?>" alt="Evidencia">
                                                 </div>
                                                 <div class="modal-footer">
